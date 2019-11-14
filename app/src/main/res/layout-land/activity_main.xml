@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        tools:context=".MainActivity"
+        android:baselineAligned="false">
+
+        <fragment
+            android:id="@+id/fragmentA"
+            android:name="es.raulprieto.staticfragment.FragmentA"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            tools:layout="@layout/fragment_a" />
+
+        <fragment
+            android:id="@+id/fragmentB"
+            android:name="es.raulprieto.staticfragment.FragmentB"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            tools:layout="@layout/fragment_b" />
+
+        <fragment
+            android:id="@+id/fragmentC"
+            android:name="es.raulprieto.staticfragment.FragmentC"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.1"
+            tools:layout="@layout/fragment_c" />
+
+    </LinearLayout>
+</layout>

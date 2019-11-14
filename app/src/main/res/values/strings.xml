@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">StaticFragment</string>
+    <string name="btResize">Change Size</string>
+    <string name="edMessage">Text to show</string>
+
+
+    <string name="previewContent"><![CDATA[ <html><head></head><body>
+        <p>This book aims to help you improve your skills at managing people – to help you find ways in which everybody benefits. It contains 50 secrets, grouped into seven themed chapters.</p>
+    <p>
+    <ul>
+    <li>
+    <span class=\'pointHeading\'>Build on a strong foundation.</span><span class=\'normalText\'>You must understand what type of leader or manager you want to be. Your employer may give guidelines, but you must exert control over your day-to-day behaviour.</span>
+    </li>
+    <li>
+    <span class=\'pointHeading\'>Create a great team.</span><span class=\'normalText\'>This shows how to choose the right people and quickly build a functioning team.</span>
+    </li>
+    <li>
+    <span class=\'pointHeading\'>Set goals and targets.</span><span class=\'normalText\'>By setting people effective targets and goals, you can monitor progress and offer appropriate rewards.</span>
+    </li>
+    <li>
+    <span class=\'pointHeading\'>Motivate yourself and your people.</span><span class=\'normalText\'>Implementing ways to motivate people is ultimately much easier than having to cajole and constantly monitor unmotivated people.</span>
+    </li>
+    <li>
+    <span class=\'pointHeading\'>Manage good performance.</span><span class=\'normalText\'>You need to recognize good performance – reward it, develop it, perpetuate it and spread it to others.  Otherwise you will lose your good performers and be left only with the poor ones.</span>
+    </li>
+    <li>
+    <span class=\'pointHeading\'>Manage poor performance.</span><span class=\'normalText\'>Some managers find ways of managing around poor performance without tackling the poor performance itself. However, this encourages more poor performance, from both the original perpetrator and everyone else. Know how to tackle the problems head on.</span>
+    </li>
+    <li>
+    <span class=\'pointHeading\'>Develop your people.</span><span class=\'normalText\'>Though often overlooked by managers, another fundamental task is developing people. You need to improve the less able, stretch and reward the able, plan succession for the future and mentor your people’s changing needs. </span>
+    </li>
+    </ul>
+    </p>
+    <p>Managing people is a hugely complex area in which you never stop learning. The secrets contained in this book will help you make massive strides towards succeeding in this fascinating role.</p>
+    </body>
+    </html>
+    ]]></string>
+    <string name="Textete">Textete</string>
+</resources>
