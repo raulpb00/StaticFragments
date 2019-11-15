@@ -60,5 +60,16 @@ public class FragmentA extends Fragment {
                 listener.onSetTextSize(binding.edMessage.getText().toString(), binding.skbSize.getProgress());
             }
         });
+        Log.d(TAG, "FragmentA -> onViewCreated()");
+    }
+
+    /**
+     * If it's initialized anything at onAttach(), it's assign to null at onDetach().
+     */
+    @Override
+    public void onDetach() {
+        super.onDetach();
+        listener = null;
+        Log.d(TAG, "FragmentA -> onDetach()");
     }
 }
